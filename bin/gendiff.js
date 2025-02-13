@@ -2,8 +2,8 @@
 /* eslint-disable import/extensions */
 
 import { program } from 'commander';
-import parseFileToObj from './parser.js';
-import genDiff from './Diff.js';
+import parseFileToObj from '../src/parser.js';
+import genDiff from '../src/index.js';
 
 program
   .description('Compares two configuration files and shows a difference.')
